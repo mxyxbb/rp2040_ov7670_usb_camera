@@ -2,6 +2,7 @@
 ## Description
 Hello everyone, I made a USB camera and would like to share it with you.
 In this project, I used the Raspberry Pi's RP2040 microcontroller to drive the OV7670 camera and captured images in YUV422 format with a resolution of 320x240. Then I used the TinyUSB USB protocol stack to transfer the image data to the computer in the form of a USB Video Class (UVC) Device through the 12Mbps full-speed USB interface integrated on the RP2040. The current frame rate is only 5, and there is still room for optimization（To do）.
+
 大家好啊，我制作了一个USB摄像头，向大家分享一下。
 这个项目中使用树莓派家的RP2040微控制器驱动OV7670摄像头，捕获到了320x240分辨率的YUV422格式的图像。然后我通过RP2040上集成的12Mbps的全速USB接口，使用TinyUSB的USB协议栈，以USB视频类设备，也就是 USB Video Class（UVC）Device的形式，将图像数据传输到了电脑上面。目前的帧率只有5，还有优化空间。
 
