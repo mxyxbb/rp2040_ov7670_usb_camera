@@ -35,3 +35,13 @@ Wire the following Raspberry Pi Pico pins to an OV7670 board.
 ![image](https://github.com/user-attachments/assets/db7764c1-1aeb-4732-9a20-e14c4e68baef)
 
 ![976c8a1f9cd98b5f3ae1b843d843040](https://github.com/user-attachments/assets/b8ef82da-4ef2-45a2-b333-1fa82be0545a)
+
+### Reference link
+https://github.com/usedbytes/camera-pico-ov7670
+
+https://github.com/the6p4c/rp2040_ov2640
+
+### Reference Docs 
+OV7670/OV7171 CMOS VGA (640x480) CameraChip™ Implementation Guide
+
+OV7670 Datasheet
