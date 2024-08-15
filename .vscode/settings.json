@@ -1,0 +1,43 @@
+{
+  // These settings tweaks to the cmake plugin will ensure
+  // that you debug using cortex-debug instead of trying to launch
+  // a Pico binary on the host
+  "cmake.statusbar.advanced": {
+    "debug": {
+      "visibility": "hidden"
+    },
+    "launch": {
+      "visibility": "hidden"
+    },
+    "build": {
+      "visibility": "hidden"
+    },
+    "buildTarget": {
+      "visibility": "hidden"
+    }
+  },
+  "cmake.buildBeforeRun": true,
+  "cmake.configureOnOpen": true,
+  "cmake.configureSettings": {
+    "CMAKE_MODULE_PATH": "${env:PICO_INSTALL_PATH}/pico-sdk-tools"
+  },
+  "cmake.generator": "Ninja",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "files.associations": {
+    "parallel_in.h": "c",
+    "*.pio": "c",
+    "cstdlib": "c",
+    "main.h": "c",
+    "pca9557_i2c.h": "c",
+    "clocks.h": "c",
+    "spi.h": "c",
+    "resets.h": "c",
+    "ad8370.h": "c",
+    "stdint.h": "c",
+    "image.pio.h": "c",
+    "ov7670_regs.h": "c",
+    "cameraov7670registerdefinitions.h": "c",
+    "i2c.h": "c",
+    "ov7670.h": "c"
+  }
+}
