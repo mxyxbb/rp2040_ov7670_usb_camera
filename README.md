@@ -23,3 +23,7 @@ Wire the following Raspberry Pi Pico pins to an OV7670 board.
 
 
 [^i2c_pullups]: Likely require I2C pullups unless breakout board provides them. Even so, adding a 10k pullup won't hurt.
+
+![image](https://github.com/user-attachments/assets/db7764c1-1aeb-4732-9a20-e14c4e68baef)
+
+![976c8a1f9cd98b5f3ae1b843d843040](https://github.com/user-attachments/assets/b8ef82da-4ef2-45a2-b333-1fa82be0545a)
