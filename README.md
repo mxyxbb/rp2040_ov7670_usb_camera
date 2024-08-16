@@ -1,5 +1,7 @@
 # Pico USB Camera
 Project Link https://github.com/mxyxbb/rp2040_ov7670_usb_camera/tree/main
+
+Pico-SDK-v1.5.1 used.
 ## Description
 Hello everyone, I made a USB camera and would like to share it with you.
 In this project, I used the Raspberry Pi's RP2040 microcontroller to drive the OV7670 camera and captured images in YUV422 format with a resolution of 320x240. Then I used the TinyUSB USB protocol stack to transfer the image data to the computer in the form of a USB Video Class (UVC) Device through the 12Mbps full-speed USB interface integrated on the RP2040. The current frame rate is only 5, and there is still room for optimization（To do）.
